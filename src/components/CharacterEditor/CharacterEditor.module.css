@@ -3,10 +3,12 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {}
+.maxWidthWrapper {
+  position: relative;
+}
 
 .header {
-  max-width: 65%;
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -23,8 +25,22 @@
   margin: 0;
 }
 
-.characterWrapper {}
+.characterWrapper {
+  min-height: 500px;
+  position: fixed;
+  left: 60%;
+  top: 10%;
+  bottom: 5%;
+}
 
 .controlColumn {
-  max-width: 50%;
+  width: 50%;
+}
+
+.backgroundRect {
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
