@@ -3,10 +3,10 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
+.maxWidthWrapper {}
 
 .header {
+  max-width: 65%;
   padding-bottom: 64px;
 }
 
@@ -23,8 +23,8 @@
   margin: 0;
 }
 
-.characterWrapper {
-}
+.characterWrapper {}
 
 .controlColumn {
+  max-width: 50%;
 }
